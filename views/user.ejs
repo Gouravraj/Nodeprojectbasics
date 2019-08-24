@@ -1,0 +1,12 @@
+<html>
+    <head></head>
+    <body>
+       <% Result.forEach(function(us){ %>
+              <a href="/user/<%= us.name %>/<%= us._id %>"><%= us.name%></a><br>
+            <% }) %>
+    </body>
+    </html>
+
+
+
+    

@@ -1,0 +1,12 @@
+<html>
+<head></head>
+    <body>
+    <form method="post" action="/<%= Result._id %>/useredit">
+    Email:<input name="email" type="email" value="<%=Result.email%>"><br>
+    Phone:<input name="number" type="number" value="<%=Result.number%>"><br>
+    Name:<input name="name" type="text" value="<%=Result.name%>"><br>
+    Password:<input name="pass" type="password" value="<%=Result.pass%>"><br>
+     <button type="submit">Edit</button>
+    </form>
+    </body>
+    </html>
